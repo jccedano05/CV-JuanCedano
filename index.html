@@ -171,11 +171,24 @@
                         </div>
                         <div class="subheading mb-0 text-center portafolio-subtext">El Zarandeado</div> 
                     </div> 
+
+                     <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="images/notes-app.png" alt="portafolio de Notes App" />
+                        </div>
+                        <div class="subheading mb-0 text-center portafolio-subtext">Notes Web App</div> 
+                    </div> 
                     
                    
                 </div>
             </div>
         </section>
+
+
             <hr class="m-0" />
 
            
@@ -586,7 +599,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">El Zarandeado</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">El Zarandeado (en proceso)</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -597,10 +610,59 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-3" src="images/proyecto_zarandeado.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Esta pagina web es una pagina estatica (primer proyecto personal) con un sistema de Ecommerce para
-                                        el servicio de venta a domicilio. Fue construida utilizando HTML, CSS, JavaScript, Bootstrap, Sass, entre otros.
+                                    <p class="mb-3">pagina web Ecommerce  en proceso cuenta con rutas que aun no han sido renderizadas pero se pueden acceder a ellas y trabajarlas: 
+                                        <br>
+                                        -> <strong>/users/signup</strong> 
+                                        <br>
+                                        -> <strong>/users/signin </strong> (si no se autentifica no se pueden ver domicilios)
+                                        <br>
+                                        -> <strong>/adresses</strong>   -> <strong>/adresses/add </strong>  (este ultimo no hay boton para agregar nuevos domicilios)
+                                        <br>
+                                        <br>
+                                        <strong>HTML, CSS, JavaScript, Node.js, Express, Passport, Handlebars, MongoDB,  Bootstrap, Sass, Connect-Flash, Express-Session, MVC, etc.</strong>
+                                         
                                     </p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://mariscos-zarandeado.netlify.app/">Ir al sitio</a></p>
+                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://restaurante-zarandeado.herokuapp.com/" target="_blank">Ir al sitio</a></p>
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Cerrar Ventana
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Notes Web app</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <br>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-3" src="images/notes-app.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-3">Esta pagina web fue creada para poder realizar notas en la pagina web, la cual solo tendra acceso a las notas que estan autorizadas, las cuales tendran validaciones, sesiones, encriptado de password, entre otras cosas. Fue creado basado en el patron MVC
+                                    </p>
+                                    <p>Se utulizaron los siguientes lenguajes y modulos para este proyecto: <strong>HTML, CSS, JavaScript, Node.js, Express, Passport, Handlebars, MongoDB,  Bootstrap, Encrypt.js, Connect-Flash, Express-Session, etc.</strong></p>
+                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://notes-app-jccv.herokuapp.com/" target="_blank">Ir al sitio</a></p>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
