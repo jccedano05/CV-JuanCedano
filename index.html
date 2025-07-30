@@ -90,6 +90,41 @@
                     <p></p>
                     <p></p>
 
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 title-general">Fullstack Developer (Movil)</h3>
+                            <div class="subheading mb-3 subtitle-general" >Freelance</div>
+                            <p class="text-justify">
+                                        Desarrollo de aplicacion de administracion de condominios con uso comercial, donde los residentes pueden ver informacion 
+                                        relevante de su comunidad, ya sea informacion de pagos, cuentas bancarias, publicaciones, eventos, generar pagos con stripe,
+                                        contactos telefonicos de utilidad, etc. Tambien los administradores ademas de poder insertar la informacion, tienen reporte de
+                                        ingresos y saldos pendientes de los residentes.
+                                    </p>
+                            <ul>
+                                <li>
+                                    <p class="text-justify">
+                                        Backend:
+                                         <span style="color: #A17B36;">Java | Spring Boot | Docker | JWT | Git | Posgresql | Spring data | Spring Security.</span> 
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p class="text-justify">
+                                        Frontend Movil:
+                                         <span style="color: #A17B36;">Javascript | React Native | Typescript | Zustand | Calendar Events | Biometric session |  
+                                            Push Notifications | QR Code.</span> 
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p class="text-justify">
+                                        Servicios:
+                                         <span style="color: #A17B36;">AWS (S3, Lightsail, CLoudfront, SNS) | Firebase | OneSignal | Stripe.</span> 
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">Marzo 2024 - Actualidad</span></div>
+                    </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 title-general">Java Backend Developer</h3>
@@ -97,10 +132,20 @@
                             <ul>
                                 <li>
                                     <p class="text-justify">
-                                        Desarrollar, diseña y mantener aplicaciones del cliente USAA Bank (mayormente mantenimiento de codigos).
-                                         <span style="color: #A17B36;">(Java | Spring Boot | JWT | Junit | Git | Mockito |Jira | Spring data | Spring Security).</span> 
+                                        Desarrollar, diseñar y mantener aplicaciones del cliente USAA Bank (mayormente mantenimiento de codigos).
+                                         <span style="color: #A17B36;">(Java | Spring Boot | JWT | Junit | Git | Mockito |Jira | Spring data | Spring Security, Thymeleaf).</span> 
                                     </p>
                                 </li>
+
+                                <li>
+                                    <p class="text-justify">
+                                        Mantenimiento mensual programado de servidores y bases de datos, con tareas de prevalidación y postvalidación para asegurar que todo esté correcto.  
+                                        <span style="color: #A17B36;">
+                                            (Base de Datos Oracle SQL | Servidor Archer Ecort | Servidor ComplianceMax | Servidor Proofpoint).
+                                        </span>
+                                    </p>
+                                </li>
+
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-success">Junio 2022 - Actualidad</span></div>
@@ -217,70 +262,69 @@
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-left text-uppercase mb-5 title-seccion">Portafolio</h2>
 
-                <p class="text-justify">En esta seccion podemos encontrar todos los proyectos realizados de manera propia para diferentes propositos, al darle click a 
-                    la imagen podras ampliarla obteniendo su informacion principal, asi como  los componentes que se utilizaro y tambien un link 
-                    para poder ver el proyecto.
+                <p class="text-justify">En esta seccion podemos encontrar todos los proyectos realizados de manera propia para diferentes propositos, siendo una aplicacion 
+                    movil con uso comercial para condominios y una pagina web realizada con fines de aprendizaje. Al dar clic se puede ver el stack usado, asi como videos
+                    en youtube sobre su funcionamiento.
                 </p>
                 
                
                 <br><br>
+
+                <style>
+                .portfolio-img-box {
+                width: 100%;
+                height: 200px; /* Puedes ajustar este alto según te convenga */
+                background-color: #f0f0f0; /* Un gris claro para resaltar imágenes blancas */
+                border: 1px solid #ddd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                }
+
+                .portfolio-img-box img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                }
+
+                </style>
+
+
                 <!-- Portfolio Grid Items -->
                 <div class="row">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="images/proyecto_zarandeado.png" alt="portafolio de el zarandeado" />
-                        </div>
-                        <div class="subheading mb-0 text-center portafolio-subtext">El Zarandeado</div> 
-                    </div> 
 
-                    <!-- Portfolio Item 11-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="images/Calendar-Mern.png" alt="portafolio de el Calendar Mern" />
-                        </div>
-                        <div class="subheading mb-0 text-center portafolio-subtext">Calendar MERN</div> 
-                    </div> 
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                    </div>
+                    <div class="portfolio-img-box">
+                    <img class="img-fluid" src="images/AYNI_Logo.png" alt="portafolio de el zarandeado" />
+                    </div>
+                </div>
+                <div class="subheading mb-0 text-center portafolio-subtext">AYNI Comunidad (2024)</div>
+                </div>
 
-                    <!-- Portfolio Item 2  Advance Notes React-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="images/BlockNotes-React.png" alt="portafolio de notas avanzadas react" />
-                        </div>
-                        <div class="subheading mb-0 text-center portafolio-subtext">(React-Redux) Notes App</div> 
-                    </div> 
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                    </div>
+                    <div class="portfolio-img-box">
+                    <img class="img-fluid" src="images/proyecto_zarandeado.png" alt="portafolio de el zarandeado" />
+                    </div>
+                </div>
+                <div class="subheading mb-0 text-center portafolio-subtext">El Zarandeado (2020)</div>
+                </div>
 
-                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="images/notes-app.png" alt="portafolio de Notes App" />
-                        </div>
-                        <div class="subheading mb-0 text-center portafolio-subtext">(Node.js) Notes App</div> 
-                    </div> 
-
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="images/chat-javascript.png" alt="portafolio de Web Chat JavaScript" />
-                        </div>
-                        <div class="subheading mb-0 text-center portafolio-subtext">Chat Universal Javascript</div> 
-                    </div> 
-                   
+             
                 </div>
             </div>
         </section>
@@ -501,197 +545,6 @@
                       <br>
 
 
-
-                      <!-- Flujo de trabajo -->
-                 <!--      
-                    <div class="subheading mb-3"><strong>FLUJO DE TRABAJO</strong></div>
-                    
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Diseño responsivo en paginas web</a>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Algoritmos y estructuras de datos </a>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Patrones de Diseño</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Trabajo en equipos multidiciplinarios</a>
-                          </div>
-                        </div>
-                        <div class="col-8">
-                          <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active text-justify" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                                Experiencia en diseños responsivos de paginas webs, con la implementacion de Frameworks como <strong>Bootstrap</strong>, ejecutando de manera
-                                 automatica los Media Querys necesarios para que nuestra pagina pueda redimensionar dependiendo de la pantalla desde la cual sera vista.
-                                 <br>
-                                 <br>
-                                Tambien <strong>Bootstrap</strong> facilita la insercion de menus, botones, barras de navegacion, controles de paginas, deslizamientos automaticos 
-                                de imagenes, entre muchas cosas mas, de manera prediseñada, lo que ahorraria mucho tiempo de codigo solamente teniendo que ajustar el programa a las 
-                                necesidades del cliente.
-                            </div>
-                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                              <div class="row">
-                                  <div class="col-4">
-                                    <ul class="fa-ul mb-0">
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Big O Notation 
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Recursion
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Searching Algorithms
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Bubble Sort 
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Selection Sort 
-                                        </li>
-                                    </ul>
-                                  </div>
-
-
-                                  <div class="col-4">
-                                    <ul class="fa-ul mb-0">
-                                        <li>
-                                            
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Insertion Sort
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Merge Sort
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Quick Sort 
-                                        </li>
-                                    </ul>
-                                  </div>
-
-
-                                  <div class="col-4">
-                                    <ul class="fa-ul mb-0">
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Linked Lists
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Stacks + Queues
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Arboles de Busqueda Binaria
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Binary Heaps
-                                        </li>
-                                        <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Hash Tables
-                                        </li>
-                                    </ul>
-                                  </div>
-                              </div>
-                            </div>
-
-
-                            
-                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                                <div class="row">
-                                    <div class="col-4">
-                                      <ul class="fa-ul mb-0">
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Singleton
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Factory
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Abstract Factory 
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Prototype
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Facade
-                                          </li>
-                                          
-                                          
-                                      </ul>
-                                    </div>
-
-                                    <div class="col-4">
-                                      <ul class="fa-ul mb-0">
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Decorator
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Proxy
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Command
-                                          </li>
-                                          <li>
-                                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                                            Observer
-                                        </li>
-                                      </ul>
-                                    </div>
-
-                                    <div class="col-4">
-                                      <ul class="fa-ul mb-0">
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Modelo Vista Controlador (MVC)
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Strategy
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Data Access Object (DAO)
-                                          </li>
-                                          <li>
-                                              <span class="fa-li"><i class="fas fa-check"></i></span>
-                                              Etc...
-                                          </li>
-                                          
-                                      </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade text-justify" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                                Amplia experiencia en trabajos en equipo, teniendo en los ultimos años equipos de trabajos multidiciplinarios y dando esto un plus
-                                 a mi carrera laboral ya que gracias a eso, se puede comprender que la diversidad de perspectivas para una solucion dada es importante,
-                                 ya que pno solo debe verse desde el punto de vista funcional, sino lo que esta solucion implicaria en cuestion administrativa, 
-                                 recursos de personal y que implicaria para el consumidor, entre otras cosas mas. 
-                                 <br>
-                                 <br>
-                                Gracias a todo eso se aprende a tener empatia laboral, lo que implica que al dar una solucion, no solo debes de ver que tu area sea la unica 
-                                beneficiada, sino que cada una sea lo menos afectada posible. Todo esto ayudara a optimizar los recursos y disponer de una mayor vision. 
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
- -->
-
                    
                     
                     
@@ -785,7 +638,10 @@
 
 
  <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
+      
+
+
+        <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -797,7 +653,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">El Zarandeado (en proceso)</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">AYNI Comunidad (App Movil)</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -806,16 +662,40 @@
                                     </div>
                                     <br>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="images/proyecto_zarandeado.png" alt="" />
+                                     <img class="img-fluid rounded mb-3 border shadow-sm bg-light p-2" 
+                                        style="max-width: 300px;" 
+                                        src="images/AYNI_Logo.png" 
+                                        alt="AYNI Logo" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">pagina web Ecommerce, actualmente fuera de servicio por llegar al tiempo limite de uso gratuito en AWS. El link redirecciona a youtube donde se podra ver un video Demo. 
-                                     
-                                        <br>
-                                        <br>
-                                        <strong>HTML, CSS, JavaScript, Bootstrap, React, Redux, NodeJS, Express, JWT, MongoDB, Mongoose, API Rest.</strong>
-                                         
+                                    <p class="text-justify">
+                                        Desarrollo de aplicacion de administracion de condominios con uso comercial, donde los residentes pueden ver informacion 
+                                        relevante de su comunidad, ya sea informacion de pagos, cuentas bancarias, publicaciones, eventos, generar pagos con stripe,
+                                        contactos telefonicos de utilidad, etc. Tambien los administradores ademas de poder insertar la informacion, tienen reporte de
+                                        ingresos y saldos pendientes de los residentes.
                                     </p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://youtu.be/MmlH3NkgQDA" target="_blank">Ir al sitio</a></p>
+                            <ul>
+                                <li>
+                                    <p class="text-justify">
+                                        Backend:
+                                         <span style="color: #A17B36;">Java | Spring Boot | Docker | Docker-Compose | JWT | Git | Posgresql | Spring data | Spring Security.</span> 
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p class="text-justify">
+                                        Frontend Movil:
+                                         <span style="color: #A17B36;">Javascript | React Native | Typescript | Zustand | Calendar Events | Biometric session |  
+                                            Push Notifications | QR Code.</span> 
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p class="text-justify">
+                                        Servicios:
+                                         <span style="color: #A17B36;">AWS (S3, Lightsail, CLoudfront, SNS) | Firebase | OneSignal | Stripe.</span> 
+                                    </p>
+                                </li>
+                            </ul>
+                                     <a class="nav-link js-scroll-trigger" href="https://www.youtube.com/watch?v=AxYCaguuW10" target="_blank">Ver Demo Residente en Youtube</a>
+                                     <p class="mb-1 "></p><a class="nav-link js-scroll-trigger" href="https://www.youtube.com/shorts/SdrHbOfKnTg" target="_blank">Ver Demo Administrador en Youtube</a></p>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
@@ -829,104 +709,7 @@
             </div>
         </div>
 
-
-
-         <!-- Portfolio Modal 11-->
-         <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-labelledby="portfolioModal11Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal11Label">Calendar Events MERN</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <br>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="images/Calendar-Mern.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Calendario en el cual puedes guardar tus puedes agregar tus eventos de trabajo, tambien tus otros colaboradores y verlos todos. 
-                                     
-                                        <br>
-                                        <br>
-                                        <strong>HTML, CSS, JavaScript, Bootstrap, React, Redux, NodeJS, Express, JWT, MongoDB, Mongoose, Moment.</strong>
-                                         
-                                    </p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://calendar-mern-jc.netlify.app/" target="_blank">Ir al sitio</a></p>
-                                    
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Cerrar Ventana
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-         <!-- Portfolio Modal 4-->
-         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">(React-Redux) Notes App</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <br>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="images/BlockNotes-React.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Pagina web de notas con autentificacion por correo o gmail, base de datos NoSQL en la nube (firebase), subir imagenes (cloudinary), protecion de rutas y basado con react-redux. 
-                                        <br>
-                                        <br>
-                                    
-                                        Puedes usar el usuario: <strong>test_user@test.com</strong> y contraseña: <strong>123456789</strong> para usar la cuenta de prueba
-                                     
-                                        <br>
-                                        <br>
-                                        <strong>HTML, CSS, JavaScript, SASS, React, Redux, Firebase, Firestore, Cloudinary, sweetalert2, validator .</strong>
-                                         
-                                    </p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://notes-web-react.netlify.app/" target="_blank">Ir al sitio</a></p>
-                                    
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Cerrar Ventana
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- Portfolio Modal 2-->
+          <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -938,7 +721,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Notes Web app</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">El Zarandeado (Web)</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -947,12 +730,17 @@
                                     </div>
                                     <br>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="images/notes-app.png" alt="" />
+                                    <img class="img-fluid rounded mb-3" 
+                                        style="max-width: 500px;"  src="images/proyecto_zarandeado.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">Esta pagina web fue creada para poder realizar notas en la pagina web, la cual solo tendra acceso a las notas que estan autorizadas, las cuales tendran validaciones, sesiones, encriptado de password, entre otras cosas. Fue creado basado en el patron MVC
+                                    <p class="mb-3">pagina web Ecommerce, actualmente fuera de servicio por llegar al tiempo limite de uso gratuito en AWS. El link redirecciona a youtube donde se podra ver un video Demo. 
+                                     
+                                        <br>
+                                        <br>
+                                        <strong> React, Bootstrap, Redux, NodeJS, Express, JWT, MongoDB, Mongoose, API Rest.</strong>
+                                         
                                     </p>
-                                    <p>Se utulizaron los siguientes lenguajes y modulos para este proyecto: <strong>HTML, CSS, JavaScript, Node.js, Express, Passport, Handlebars, MongoDB,  Bootstrap, Encrypt.js, Connect-Flash, Express-Session, etc.</strong></p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://notes-app-jccv.herokuapp.com/" target="_blank">Ir al sitio</a></p>
+                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://youtu.be/MmlH3NkgQDA" target="_blank">Ver video en Youtube</a></p>
                                     
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
@@ -967,48 +755,7 @@
         </div>
 
 
-
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Chat Web Javascript</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <br>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="images/chat-javascript.png" alt="image of chat" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-3">En esta pagina web trata sobre un chat comunitario en el cual podemos mandar mensajes privados a cualquier usuario que querramos, esto por medio de un comando.
-                                    </p>
-                                    <p>Se utulizaron los siguientes lenguajes y modulos para este proyecto: <strong>HTML, CSS, JavaScript, Node.js, Socket.io y Bootstrap.</strong></p>
-                                    <p class="mb-2 "></p><a class="nav-link js-scroll-trigger" href="https://chat-web-jccv.herokuapp.com/" target="_blank">Ir al sitio</a></p>
-                                    
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Cerrar Ventana
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+    
 
 
 
